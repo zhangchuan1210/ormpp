@@ -119,6 +119,8 @@ TEST_CASE(mysql_pool){
 //    }
 }
 
+
+
 TEST_CASE(test_ormpp_cfg){
     ormpp_cfg cfg{};
     bool ret = config_manager::from_file(cfg, "./cfg/ormpp.cfg");
